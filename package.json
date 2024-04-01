@@ -1,0 +1,23 @@
+{
+  "name": "wm_project02_atm",
+  "version": "1.0.0",
+  "description": "This project aims to create a simple ATM (Automated Teller Machine) simulation using TypeScript, providing functionalities like withdrawing cash, depositing cash, checking balance, and transferring funds between accounts.",
+  "main": "main.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
